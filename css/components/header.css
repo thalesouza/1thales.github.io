@@ -2,7 +2,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #2bcbba;
-    border-bottom: 10px solid #4b6584;
+    background-color: #000;
+    border-bottom: 10px solid #000;
     padding: 10px 20px;
+}
+
+.logo{
+    font-family: "Press Start 2P";
+    color: #FFF;
+    font-size: 25px;
+    text-shadow: 5px 5px 20px #fff;
+    transition: all 0.3s ease;
+}
+
+.logo:hover{
+    transform: translateY(-6px);
 }
