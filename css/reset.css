@@ -18,10 +18,12 @@
   
   /**
    * Remove the margin in all browsers.
+   * Set font-family 
    */
   
   body {
     margin: 0;
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
   }
   
   /**
@@ -166,6 +168,10 @@
     font-size: 100%; /* 1 */
     line-height: 1.15; /* 1 */
     margin: 0; /* 2 */
+  }
+
+  button {
+    border: none;
   }
   
   /**

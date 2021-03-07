@@ -1,56 +1,23 @@
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #2bcbba;
-    border-bottom: 10px solid #4b6584;
-    padding: 10px 20px;
-}
-
-h1 {
-    font-family: 'Press Start 2P' ;
+.logo{
+    font-family: "Press Start 2P";
     color: #FFF;
-    text-shadow: 5px 5px 0 #4b6584;
+    font-size: 25px;
+    text-shadow: 4px 4px 0 #4b4b4b;
 }
 
-nav {
-    text-align: right;
+
+#outdoor{
+    background-image: url(/assets/img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid red;
 }
 
-a{
-    display: inline-flex;
-    align-items: center;
-    color: #FFF;
-    font-size: 20px;
-    font-family: Fira Code;
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 30px;
+#buttons{
+    border: solid yellow;
+    display: block;
+    position: relative;
+    margin-top: 38px;
+    margin-bottom: 497px;
+    padding-left: 181px;
 }
-
-a::before {
-    content: "";
-    display: inline-block;
-    background: #fc5c65;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-}
-
-#button {
-    display: inline-block;
-    background-color: #fc5c65;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 5px 5px 0 #4b6584;
-    margin-right: 0px;
-    transition: transform 150ms linear opacity 500ms ease-in-out;
-}
-
-#button:hover{
-    transform: scale(1.07);
-    opacity: 0.9;
-}
-
