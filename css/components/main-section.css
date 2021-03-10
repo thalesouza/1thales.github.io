@@ -12,3 +12,8 @@
 .skills-page {
     text-decoration: none;
 }
+
+.main-section.-second {
+    background-color: #000;
+    border-bottom: 10px solid #776393;
+}
