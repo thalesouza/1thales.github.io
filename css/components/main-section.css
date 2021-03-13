@@ -22,3 +22,8 @@
     background-color: palevioletred;
     border-bottom: 10px solid #000;
 }
+
+.main-section.-form {
+    background-color: #828282;
+    border-bottom: none;
+}

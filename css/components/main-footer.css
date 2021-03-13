@@ -1,0 +1,27 @@
+.main-footer {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #000;
+    height: 100px;
+    padding-top: 28px;
+}
+
+.main-footer .wrapper-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 215px;
+}
+
+.main-footer .instagramLogo {
+    height: 45px;
+}
+
+.main-footer .githubLogo {
+    height: 45px;
+    transform: scale(1.5);
+}
+
+.main-footer .discordLogo {
+    height: 45px;
+}

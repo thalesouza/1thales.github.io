@@ -1,0 +1,30 @@
+.main-form {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.main-form label {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.main-form .inputs {
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 5px solid #000;
+}
+
+.main-form .inputs.-message {
+    height: 320px;
+}
+
+.main-form .main-button.-form {
+    margin-top: 40px;
+    width: 100%;
+    overflow: hidden;
+}
+

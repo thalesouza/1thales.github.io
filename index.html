@@ -24,6 +24,8 @@
         <link rel="stylesheet" href="css/components/button-arrow.css">
         <link rel="stylesheet" href="css/components/node-card.css">
         <link rel="stylesheet" href="css/components/main-carousel.css">
+        <link rel="stylesheet" href="css/components/main-footer.css">
+        <link rel="stylesheet" href="css/components/main-form.css">
     </head>
 
     <body>
@@ -34,7 +36,7 @@
                 <a class="main-action" href="#skills" lang="en">Skills</a>
                 <a class="main-action" href="#projects">Projetos</a>
                 <a class="main-action" href="#sobre">Sobre</a>
-                <a class="main-action" href="">Contatos</a>
+                <a class="main-action" href="#contact">Contatos</a>
                 <a class="main-button" href="" lang="en">Download CV</a>
             </nav>
         </header>
@@ -191,13 +193,36 @@
                 Atualmente, no último ano do curso de Medicina Veterinária, Thales sempre foi entusiasta por tecnologia. Entre os 09 e 12 anos de idade, gostava de criar servidores paralelos de jogos como WyD, Habbo, CS 1.6, onde teve o primeiro contato como funcionava um banco de dados, colocar um servidor no ar, tudo de maneira bem simples.
                 Durante os últimos 2 anos, em 2019 específicamente, interessou em aprender Python, como uma forma de aprender como funcionava o desenvolvimento de código e sua lógica por trás dos softwares que são utilizados no dia a dia. Aprendeu que ser desenvolvedor é um leque gigantesco e gosta de se aventurar em novas áreas e desde então começou a acompanhar a rotina dos desenvolvedores através do Live Coding na Twitch.
             </p>
-
-
-
-
         </section>
 
+        <section class="main-section -form">
+            <a id="contact" class="jump-page" href="#contact">
+            <h2 class="main-title -second">Contatos</h2>
+            </a>
+            <div class="main-form">
+                <form action="post">
+                    <label for="name">Nome</label>
+                    <input type="text" class="inputs" name="name" id="name" required>
+                    <label for="email">Email</label>
+                    <input type="text" class="inputs" name="email" id="email" required>
+                    <label for="mensagem">Mensagem</label>
+                    <input type="mensagem" class="inputs -message"  name="mensagem" id="mensagem" required>
+                    <button type="submit" class="main-button -form">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+        </section>
 
         <script src="/js/components/main-carousel.js"></script>
+        <script src="/js/components/main-discord.js"></script>
     </body>
+
+    <footer class="main-footer">
+        <div class="wrapper-footer">
+            <a href="https://instagram.com/thalesboneli" target="_blank"><img class="instagramLogo" src="img/instagram_1.png" alt="Logo instagram"></a>
+            <a href="https://github.com/1thales" target="_blank"><img class="githubLogo" src="img/github_2.png" alt="Logo GitHub"></a>
+            <a class="myTag"><img class="discordLogo" src="img/discord 1.png" alt="Logo Discord"></a>
+        </div>
+    </footer>
 </html>
