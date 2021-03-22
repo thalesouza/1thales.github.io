@@ -13,12 +13,13 @@
 .main-form .inputs {
     width: 100%;
     height: 50px;
+    font-size: 30px;
     display: inline-block;
     box-sizing: border-box;
     border: 5px solid #000;
 }
 
-.main-form .inputs.-message {
+.main-form .inputs.-textarea {
     height: 320px;
 }
 
@@ -28,3 +29,6 @@
     overflow: hidden;
 }
 
+.main-form .main-button.-form:hover {
+    transform: scale(1.01);
+}
